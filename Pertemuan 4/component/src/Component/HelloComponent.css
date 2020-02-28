@@ -1,0 +1,10 @@
+.text-p {
+    color: red;
+}
+
+.box {
+    width: 420px;
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 0;
+}

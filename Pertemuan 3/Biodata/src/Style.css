@@ -1,0 +1,443 @@
+@import url("//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700&#038;subset=latin%2Cgreek%2Cgreek-ext%2Cvietnamese%2Ccyrillic-ext%2Clatin-ext%2Ccyrillic&#038;ver=1.0.0 | //fonts.googleapis.com/css?family=Roboto+Slab%3A300%2C400%2C700&#038;subset=latin%2Cgreek%2Cgreek-ext%2Cvietnamese%2Ccyrillic-ext%2Clatin-ext%2Ccyrillic&#038;ver=1.0.0");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* START NAV */
+
+
+nav a {
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 400;  
+  text-decoration: none;
+  color: ghostwhite;
+  margin: 0 25px;
+}
+
+#nav a:hover {
+  color: ghostwhite;
+  transition: 1s;
+  background: #009387;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* END NAV */
+
+#home {
+  background: url(./Assets/PicsArt_10-19-07.17.46.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  /* margin-bottom: 15%; */
+  height: 100vh;
+  background-position: 50% 0px;
+}
+
+/* START HOME */
+
+.intro-sub {
+  font-family: "Roboto Slab";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 100px;
+  color: ghostwhite;
+}
+
+#home .container {
+  text-align: center;
+  color: ghostwhite;
+}
+
+.container h1 span {
+  font-family: "Roboto", sans-serif;
+}
+
+.container span {
+  color: #0bada0;
+}
+
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-icons ul li {
+  display: inline-block;
+}
+
+.social-icons ul li a i {
+  color: ghostwhite;
+  font-size: 35px;
+  font-weight: 400;
+  margin: 18px;
+}
+
+.social-icons ul li a i:hover {
+  color: #0bada0;
+  font-size: 37px;
+  transition: 1s;
+}
+
+/* END HOME */
+
+h1 h2 {
+  font-weight: 700;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 14px;
+  /* color: ghostwhite; */
+}
+
+/* Start icon scroll */
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 90%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 2px ghostwhite;
+  border-radius: 25px;
+}
+
+.icon-scroll:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: ghostwhite;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 10px;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+    transform: translateY(46px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+    transform: translateY(46px);
+  }
+}
+/* End icon scroll */
+
+/* START ABOUT */
+
+#about {
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  height: 100vh;
+  margin-bottom: 30%;
+}
+#about .objek {
+  float: left;
+  color: #777b80;
+  font-weight: bold;
+}
+
+#about .objek h3 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#about .objek p {
+  margin-bottom: 50px;
+  color: #777b80;
+}
+
+#about .info h3 {
+  color: #777b80;
+  font-weight: bold;
+}
+
+#about h2 {
+  font-weight: bold;
+  color: #2d3f51;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 100px;
+  margin-bottom: 8%;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+#about .biography {
+  font-family: "Roboto";
+  color: #777b80;
+  border: 1px solid #eeeeee;
+  margin-bottom: 80px;
+}
+
+#about .biography ul {
+  padding: 35px 10px 0 10px;
+}
+
+#about .biography ul li {
+  font-family: "Roboto";
+  padding: 15px 0;
+  font-size: 16px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+#about .fortnite {
+  font-family: "Roboto";
+  font-size: 14px;
+  padding: 20px;
+  color: white;
+  background-color: #009387;
+  text-decoration: none;
+}
+
+#about .fortnite:hover {
+  color: #0cafa1;
+  transition: 0.25s;
+  background-color: #2e383e;
+  box-shadow: inset 0 0 0 5px #009387;
+}
+
+#about .pubg {
+  font-family: "Roboto";
+  text-decoration: none;
+  font-size: 14px;
+  padding: 20px;
+  color: ghostwhite;
+  background-color: #009387;
+}
+
+#about .pubg:hover {
+  color: #0cafa1;
+  transition: 0.25s;
+  background-color: #2e383e;
+  box-shadow: inset 0 0 0 5px #009387;
+}
+
+/* END ABOUT */
+
+/* START EXPERIENCE */
+#experience {
+  background: linear-gradient(rgba(61, 66, 70, 0.7), rgba(61, 66, 70, 0.7)),
+    url(./Assets/Arctic_Ice.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 110vh;
+  border-bottom: 1px solid #45515c;
+}
+
+#experience h2 {
+  font-weight: bold;
+  color: ghostwhite;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 100px;
+  margin-bottom: 8%;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+#myExp h4 {
+  color: ghostwhite;
+  font-weight: bold;
+}
+
+#myExp p {
+  color: ghostwhite;
+}
+
+#myExp span {
+  color: ghostwhite;
+}
+
+#myExp .icon1 a {
+  color: ghostwhite;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+
+#myExp .icon1 a:hover {
+  color: #f3a10a;
+  transition: 1s;
+}
+
+#myExp .icon2 a {
+  color: ghostwhite;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+
+#myExp .icon2 a:hover {
+  color: #068f06;
+  transition: 1s;
+}
+
+/* END EXPERIENCE */
+
+/* START EDUCATION */
+#education {
+  /* background: linear-gradient(rgba(47, 48, 49, 0.582), rgba(47, 48, 49,0.582)), url(6868284-gif-wallpaper.jpg); */
+  background-color: #1f2327;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  border-bottom: 1px solid #45515c;
+}
+
+#education h2 {
+  font-weight: bold;
+  color: #009387;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 100px;
+  margin-bottom: 8%;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+#myEdu h4 {
+  color: ghostwhite;
+  font-weight: bold;
+}
+
+#myEdu p {
+  color: ghostwhite;
+}
+
+#myEdu span {
+  color: #009387;
+}
+
+/* END EDUCATION */
+
+/* START SKILL */
+
+#skill {
+  background: linear-gradient(rgba(26, 30, 35, 0.66), rgba(26, 30, 35, 0.66)),
+    url(./Assets/fox-freezing-snow-arctic-ocean-ice-wildlife-winter-2304x1440.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 120vh;
+  border-bottom: 1px solid #45515c;
+  padding-left: 40vw;
+}
+
+#skill h2 {
+  font-weight: bold;
+  color: #009387;
+  font-family: "Roboto", sans-serif;
+  padding-top: 100px;
+  margin-bottom: 8%;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+#skill h5 {
+  color: ghostwhite;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 20px;
+}
+
+#skill .icon {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 160px;
+  font-size: 48px;
+}
+
+#skill .icon a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+#skill .icon a:hover {
+  font-size: 50px;
+  color: #009387;
+  transition: 0.5s;
+}
+
+/* END SKILL */
+
+/* START INTEREST */
+
+#interest {
+  background: linear-gradient(rgba(88, 90, 92, 0.5), rgba(88, 90, 92, 0.5)), url(./Assets/166994.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #45515c;
+}
+
+#interest h2 {
+  font-weight: bold;
+  color: ghostwhite;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 100px;
+  margin-bottom: 8%;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+#interest p {
+  color: ghostwhite;
+  font-size: 22px;
+}
+
+/* END INTEREST */
+
+footer {
+  height: 80px;
+  background: rgba(0, 0, 0, 1)!important;
+}
+
+footer p {
+  color: white;
+  font-weight: 200;
+  padding-top: 28px;
+}
