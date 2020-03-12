@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1583400248872,
+      "title": "Kuliah",
+      "body": "Pemrograman Framework "
+    },
+    {
+      "userId": 1,
+      "id": 1583402004882,
+      "title": "Kuliah",
+      "body": "Pemrograman Framework asd"
+    }
+  ],
+  "mahasiswa": [
+    {
+      "id": 1,
+      "NIM": "1741720030",
+      "nama": "Aldi Surya",
+      "alamat": "Jl Semanggi Barat No.30A",
+      "hp": "087861141208",
+      "angkatan": "2017",
+      "status": "aktif"
+    }
+  ]
+}
